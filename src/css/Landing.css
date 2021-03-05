@@ -1,0 +1,377 @@
+@media only screen and (max-width: 750px) {
+  body {
+    font-size: 10px !important;
+  }
+
+  .landingTop {
+    height: 250px !important;
+  }
+
+  .topBackground {
+    margin-left: 1rem !important;
+  }
+
+  .topBackgroundTxt {
+    font-size: 1rem !important;
+  }
+
+  .landingSteps {
+    height: 70px !important;
+  }
+
+  .stepNum {
+    font-size: 0.6rem !important;
+    padding-bottom: 0.1rem !important;
+    padding-top: 0.25rem !important;
+  }
+
+  .stepDesc {
+    font-size: 0.7rem !important;
+  }
+
+  .linkCol a {
+    font-size: 9px !important;
+  }
+
+  .binanceXinfo,
+  .landingCopyright,
+  .termsAndConditions {
+    font-size: 0.4rem !important;
+  }
+
+  .footerLogo {
+    width: 6rem !important;
+  }
+
+  .binanceInfoContainer {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+  }
+
+  .footerFiller {
+    flex: 0 0 0% !important;
+    max-width: 0px !important;
+    padding: 0px !important;
+  }
+
+  .landingLocationSearch input::placeholder {
+    font-size: 10px !important;
+  }
+}
+
+.landingHeader {
+  padding: 2px;
+}
+
+.btcToAud {
+  color: #f0b90b !important;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.logo {
+  height: 21px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.buyBtnContainer {
+  /* background: linear-gradient(180deg, #efe30a 0, #f0b90b) !important; */
+  background: #f0b90b !important;
+  color: white !important;
+  border-radius: 3px;
+  font-size: small;
+  font-weight: bold;
+  line-height: 1 !important;
+  vertical-align: middle !important;
+}
+
+.landingTop {
+  background: rgb(255, 255, 255) url("../images/bitcoins.jpg") no-repeat
+    padding-box border-box;
+  background-size: cover;
+  height: 350px;
+  background-position: center;
+}
+
+.topBackgroundcontainer {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+.topBackground {
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.topBackgroundTxt {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.topBackgroundTxt2 {
+  margin-bottom: 0.7rem !important;
+}
+
+.landingSteps {
+  /* margin-top: -20px; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: white;
+  margin: 0 auto;
+  margin-bottom: -50px !important;
+  border-radius: 0.25rem;
+  max-width: 700px;
+  z-index: 10;
+}
+
+.halfShadow {
+  margin: 0 auto;
+  margin-bottom: -50px !important;
+  position: absolute;
+  z-index: 2;
+  max-width: 700px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.landingStep {
+  margin: 1px;
+  height: 100%;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.step1 {
+  background: rgb(255, 255, 255) url("../images/step1.jpg") no-repeat scroll
+    10px / auto 100px padding-box border-box;
+}
+
+.step2 {
+  background: rgb(255, 255, 255) url("../images/step2.jpg") no-repeat scroll
+    10px / auto 100px padding-box border-box;
+}
+
+.step3 {
+  background: rgb(255, 255, 255) url("../images/step3.jpg") no-repeat scroll
+    10px / auto 100px padding-box border-box;
+}
+
+.step4 {
+  background: rgb(255, 255, 255) url("../images/step4.jpg") no-repeat scroll
+    10px / auto 100px padding-box border-box;
+}
+
+.step1,
+.step2 {
+  /* Safari 6.0 - 9.0 */
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  background-color: #fff;
+  background-blend-mode: luminosity, normal;
+}
+
+.step3,
+.step4 {
+  /* Safari 6.0 - 9.0 */
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  background-color: #fff;
+  background-blend-mode: luminosity, normal;
+}
+
+.step1 .stepNum,
+.step2 .stepNum {
+  color: #f0b90b !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.stepContentContainer .stepNum {
+  color: white !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.step1 .stepDesc,
+.step2 .stepDesc {
+  color: white;
+  font-weight: bold;
+}
+
+.stepContentContainer .stepDesc {
+  color: rgb(41, 41, 41);
+  font-weight: bold;
+}
+
+.stepNum,
+.stepDesc {
+  text-align: left;
+}
+
+.stepContentContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.verifyStepContentContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.verifyStepBackground {
+  background: rgb(0, 0, 0, 0.7);
+  opacity: 0.65;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.stepBackground {
+  background: #f0b90b;
+  opacity: 0.65;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.buyBtcText {
+  font-weight: bold;
+}
+
+.stepDesc {
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+.landingLinks {
+  padding-top: 100px;
+  background: white;
+  max-width: 700px;
+}
+
+.landingLinksRow {
+  background: white;
+}
+
+.linkCol a {
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(51, 51, 51);
+}
+
+.linkCol {
+  line-height: 1.4;
+  padding: 0 !important;
+  margin-left: -10px;
+}
+
+.linkColViewMore {
+  margin: 0;
+}
+
+.viewMore {
+  color: rgb(153, 153, 153) !important;
+}
+
+.binanceTxt {
+  font-size: 11px;
+}
+
+.mapHeading {
+  font-weight: bold;
+  color: #f0b90b;
+}
+
+.landingLocationSearch input {
+  box-shadow: 0 0 2px 4px #ccc;
+}
+
+.landingLocationSearch input::placeholder {
+  color: rgb(153, 157, 158) !important;
+  font-size: 12px;
+}
+
+.mapHeadingContainer {
+  margin-top: 4rem;
+}
+
+.mapHeading {
+  max-width: 600px;
+}
+
+.landingMap,
+.landingLocationSearch {
+  max-width: 380px;
+}
+
+.btcToAudContent {
+  color: #f0b90b !important;
+  font-weight: bold;
+}
+
+.buyBtcBtnContent {
+  font-weight: bold;
+  line-height: 1.5 !important;
+}
+
+.landingFooter {
+  background: rgb(51, 51, 51);
+}
+
+.footerLogo {
+  width: 100%;
+  height: auto;
+  max-width: 180px;
+}
+
+.bullets {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 6px;
+  border-radius: 100%;
+  background: rgb(51, 51, 51);
+}
+
+.locateBtn {
+  line-height: 1.4 !important;
+  margin-left: 0.5rem;
+}
+
+.aboutUs {
+  color: #f0b90b;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.binanceXinfo,
+.landingCopyright {
+  font-size: 0.7rem;
+  color: white;
+  line-height: 1.2;    
+}
+
+.termsAndConditions {
+  color: #f0b90b;
+  font-size: 0.7rem;
+}

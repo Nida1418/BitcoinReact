@@ -1,0 +1,32 @@
+.verifyOnBlock
+{
+    min-width: 100px;
+    margin-right: 600px;
+  height: 30px;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  float: right;
+
+  cursor: pointer;
+
+    vertical-align: top;   
+}
+
+.viewOnExplorerButton {
+  width: 250px;
+}
+
+.backButton
+{
+
+    margin: 0 auto;
+    min-width: 100px;    
+    height: 30px;
+    background-color: gray;
+    font-size: 20px;
+    color: black;    
+    cursor: pointer;
+    vertical-align: top;   
+}

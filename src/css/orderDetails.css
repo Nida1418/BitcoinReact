@@ -1,0 +1,193 @@
+.orderDetailsText {
+  font-size: small;
+}
+
+.orderDetailsText em {
+  color: #f0b90b;
+  font-style: normal;
+}
+
+.orderDetailsTextContainer, .orderDetailsQRCodeContainer {
+  background: white;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  max-width: 750px;
+  /* margin: 0 auto; */
+}
+
+.qrCodeWrapper, .mapWrapper {
+  min-width: 300px;
+}
+
+.qrCodeWrapper, .mapText {
+  font-size: small;
+}
+
+.locationSearchInput {
+  margin: 0;
+  border: 1px solid;  
+}
+
+.arrowBtnContainer {
+  background: #f0b90b;
+  border-radius: 0.25rem;   
+}
+
+.arrowBtnContainer svg {
+  padding: 0.5rem;
+}
+
+.locationSearchContainer {
+  background: white;
+  margin-top: 0.5rem;
+}
+
+.mapContainer {
+  margin-bottom: 0.5rem;
+}
+
+.orderSummaryTxt, .summaryCol {
+  margin-left: 10px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .qrCodeRow {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+/* .orderDetailsContainer {
+  margin: 0 auto;
+}
+.orderDetailsQRCodeContainer {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.orderDetailsTextContainer {
+  margin: 0 auto;
+}
+
+.orderDetailsText {
+  font-size: small;
+}
+
+.orderDetailsText em {
+  color: yellow;
+  font-style: normal;
+}
+
+.orderSummary {
+  display: table;
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.orderSummaryContent {
+  display: table-cell;
+  text-align: left;
+}
+
+.qrCodeWrapper {
+  margin: 20px;
+  width: 150px;
+  text-align: left;
+}
+
+.qrCodeContainer {
+  background-color: white;
+  height: 150px;
+}
+
+.qrCode {
+  margin: 10px;
+}
+
+.mapContainer {
+  margin: 20px;
+}
+
+.mapText {
+  text-align: left;
+}
+
+.orderSummaryTxt {
+  margin-left: 20px;
+  width: 160px;
+  color: yellow;
+}
+
+.orderSummaryTable {
+  margin: 20px;
+  width: 640px;
+}
+
+.orderSummaryTable tr td:first-child {
+  text-align: left;
+}
+
+.orderSummaryTable tr td:last-child {
+  text-align: right;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.zeroMargin {
+  margin: 0px;
+}
+
+.nextStepBtn {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.locationSearchContainer {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 490px;
+  text-align: right;
+}
+
+.locationSearchInput {
+  vertical-align: top;
+  margin-top: 0px;
+}
+
+.arrowBtnContainer {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.locationArrowIcon {
+  color: grey;
+  margin: 12px;
+}
+
+.orderDetailsNext {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    font-size: 20px;
+    color: black;    
+    cursor: pointer;
+} */
